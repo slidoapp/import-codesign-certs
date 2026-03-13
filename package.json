@@ -1,11 +1,11 @@
 {
   "name": "import-codesign-certs",
-  "version": "2.0.0",
+  "version": "1.2.0",
   "private": true,
   "description": "GitHub Action for Importing Code-signing Certificates into a Keychain",
   "main": "lib/main.js",
   "engines": {
-    "node": ">=20"
+    "node": ">=24"
   },
   "scripts": {
     "build": "tsc",
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
-    "@types/node": "^20.19.37",
+    "@types/node": "^24.12.0",
     "@types/tmp": "^0.2.6",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
