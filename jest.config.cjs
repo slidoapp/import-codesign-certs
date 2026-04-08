@@ -14,6 +14,7 @@ module.exports = {
       'ts-jest',
       {
         tsconfig: {
+          ignoreDeprecations: '6.0',
           module: 'commonjs',
           moduleResolution: 'node'
         }
