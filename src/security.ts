@@ -1,6 +1,6 @@
 import * as core from '@actions/core'
 import * as exec from '@actions/exec'
-import {ExecOptions} from '@actions/exec/lib/interfaces'
+import type {ExecOptions} from '@actions/exec'
 
 export async function installCertIntoTemporaryKeychain(
   keychain: string,

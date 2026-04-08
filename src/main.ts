@@ -2,7 +2,7 @@ import * as core from '@actions/core'
 import * as os from 'os'
 import * as fs from 'fs'
 import * as tmp from 'tmp'
-import * as security from './security'
+import * as security from './security.js'
 
 async function run(): Promise<void> {
   try {
